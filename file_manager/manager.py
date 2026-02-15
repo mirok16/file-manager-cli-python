@@ -9,3 +9,6 @@ def delete_file(filename):
         os.remove(filename)
 if __name__ == "__main__":
     print("Files:", list_files())
+# Lists files in directory
+# Creates empty file
+# Deletes file if exists
