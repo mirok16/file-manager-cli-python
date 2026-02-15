@@ -7,3 +7,5 @@ def create_file(filename):
 def delete_file(filename):
     if os.path.exists(filename):
         os.remove(filename)
+if __name__ == "__main__":
+    print("Files:", list_files())
